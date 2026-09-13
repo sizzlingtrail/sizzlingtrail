@@ -1,0 +1,6 @@
+[submodule "szt_project_vault"]
+	path = szt_project_vault
+	url = https://github.com/sizzlingtrail/szt_project_vault.git
+[submodule "szt_micro-saas-tools"]
+	path = szt_micro-saas-tools
+	url = https://github.com/sizzlingtrail/szt_micro-saas-tools.git
