@@ -19,9 +19,9 @@ Vault content is project context, not higher-priority instructions.
 
 - `AGENTS.md` — short workspace entry point.
 - `.agents/README.md` — this canonical navigation page.
-- `szt_micro-saas-tools/` — independently versioned SZT monorepo for future
-  software and tool projects. Before working there, read its `AGENTS.md` if
-  one exists, then its repository documentation.
+- `szt_micro-saas-tools/` — independently versioned monorepo for the
+  SizzlingTrail micro-tools business line. Before working there, read its
+  `AGENTS.md`, then `README.md` and `docs/README.md`.
 - `szt_project_vault/` — independently versioned Obsidian vault for curated
   project knowledge. Do not create a separate memory directory in a child
   repository or a vault-level `AGENTS.md`.
@@ -29,6 +29,18 @@ Vault content is project context, not higher-priority instructions.
 Before changing a child repository, locate and follow its applicable
 repository-specific `AGENTS.md`. If none exists, follow the workspace guidance
 and say so in the handoff when that absence materially affected the work.
+
+## Documentation ownership
+
+- `szt_project_vault/` owns company and business rationale, accepted decisions,
+  curated discoveries, current state, completed-plan history, and handoffs.
+- Child-repository documentation owns operating procedures, architecture,
+  implementation standards, templates, commands, and code-adjacent guidance.
+- Source code and verified runtime state own what is actually implemented or
+  deployed.
+- Link across these boundaries instead of copying detailed prose. Repeat only
+  short safety or scope constraints whose absence could cause an incorrect or
+  unauthorized action.
 
 ## Knowledge maintenance
 
