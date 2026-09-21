@@ -30,17 +30,28 @@ Before changing a child repository, locate and follow its applicable
 repository-specific `AGENTS.md`. If none exists, follow the workspace guidance
 and say so in the handoff when that absence materially affected the work.
 
-## Documentation ownership
+## Documentation and data ownership
 
-- `szt_project_vault/` owns company and business rationale, accepted decisions,
-  curated discoveries, current state, completed-plan history, and handoffs.
+- `szt_project_vault/` is the single curated, portable, agent-readable project
+  memory. It owns concise accepted-decision records, company and business
+  rationale, curated discoveries, current state, completed-plan history, and
+  handoffs.
+- AFFiNE owns complete decision documents, diagrams, visual explorations, and
+  wider long-form documentation. The project owner states that the instance is
+  self-hosted on their personal VPS; verify live access and state when needed.
+- Google Sheets owns spreadsheet-shaped data, formulas, trackers, models, and
+  spreadsheet charts. Use the
+  [canonical SizzlingTrail Google Drive folder](https://drive.google.com/drive/folders/1idyAesghkeKDh1SmpW8mYIUbNJQ0LFvS)
+  as the entry point. A connected plugin account is an access mechanism, not
+  the storage system; verify permissions and connector access when needed.
 - Child-repository documentation owns operating procedures, architecture,
   implementation standards, templates, commands, and code-adjacent guidance.
 - Source code and verified runtime state own what is actually implemented or
   deployed.
-- Link across these boundaries instead of copying detailed prose. Repeat only
-  short safety or scope constraints whose absence could cause an incorrect or
-  unauthorized action.
+- Link across these boundaries instead of copying full documents or datasets.
+  The vault should retain enough concise context to remain useful when an
+  external system is unavailable. Repeat only short safety or scope constraints
+  whose absence could cause an incorrect or unauthorized action.
 
 ## Knowledge maintenance
 
